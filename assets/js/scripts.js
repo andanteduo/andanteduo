@@ -418,8 +418,8 @@ $(function () {
     ],
     trackUrl = [
       "https://andanteduo.github.io/andanteduo/audio/Heaven.mp3",
-      "https://andanteduo.github.io/andanteduo/Hallelujah.mp3",
-      "https://andanteduo.github.io/andanteduo/Still the One.mp3",
+      "https://andanteduo.github.io/andanteduo/audio/Hallelujah.mp3",
+      "https://andanteduo.github.io/andanteduo/audio/Still the One.mp3",
       // "https://hottinruth.com/audio/Who Knew.mp3",
       // "https://hottinruth.com/audio/Who Knew.mp3",
       // "https://hottinruth.com/audio/Who Knew.mp3",
