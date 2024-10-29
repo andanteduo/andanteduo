@@ -48,8 +48,8 @@ form.addEventListener("submit", function (e) {
 async function getData() {
   try {
     const calendarId =
-      "057b6f9a7cd766c8f662565f303a9e0b9db8df6c3dc51f2432dd38cc73f15fdf@group.calendar.google.com";
-    const myKey = "AIzaSyCvFYUkBnr1x7HjcjI9chI-8np2K0iisF4";
+      "84289f3fa3af671e27319815232410ffbe5906b5994457e8bf41d4adf28a6153@group.calendar.google.com";
+    const myKey = "AIzaSyAYV-Kz313kwwdxskVDkb_CFGteJiWsO6w";
     const response = await fetch(
       `https://www.googleapis.com/calendar/v3/calendars/${calendarId}/events?key=${myKey}`
     );
