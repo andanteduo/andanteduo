@@ -301,6 +301,18 @@ p {
   }
 }
 
+
+
+/* Audio */
+audio::-webkit-media-controls-panel {
+  background-color: #734c38;
+}
+
+audio::-webkit-media-controls-mute-button {
+  background-color: #956c38;
+  border-radius: 50%;
+}
+
 /* .audio {
   display: grid;
   gap: 20px;
