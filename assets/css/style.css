@@ -348,7 +348,8 @@ audio {
     margin: 0 auto;
     border-radius: 20px;
 }
-button[type="submit"], #mc_embed_signup .button, #mc_embed_signup .button:hover {
+button[type="submit"], #mc_embed_signup .button, #mc_embed_signup .button:hover,
+a.button {
   background-color: #734c38 !important;
   color: #fff;
   border: none;
