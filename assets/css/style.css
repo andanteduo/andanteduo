@@ -323,6 +323,7 @@ p {
 
 audio::-webkit-media-controls-panel {
   background-color: #fff;
+  border: 1px solid #eee;
 }
 
 audio::-webkit-media-controls-mute-button {
