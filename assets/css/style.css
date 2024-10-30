@@ -39,7 +39,8 @@ img {
   position: absolute;
   top: 10%;
   left: 50%;
-  width: 100%;
+  width: 80%;
+  height: 90%;
   transform: translateX(-50%);
   display: flex;
   align-items: center;
@@ -47,8 +48,7 @@ img {
 }
 .banner .logo {
   width: 100%;
-  /* height: 280px; */
-
+  height: 100%;
 
   opacity: 0; /* make things invisible upon start */
   -webkit-animation: fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
@@ -64,7 +64,6 @@ img {
   animation-duration: 3s;
   animation-delay: 1s;
   transform: scale(0.1) rotateZ(-1080deg) rotateY(180deg);
-  filter: grayscale(1);
 }
 
 @keyframes fadeIn {
