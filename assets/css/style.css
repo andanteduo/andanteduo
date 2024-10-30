@@ -308,7 +308,7 @@ p {
   display: grid;
   gap: 30px;
 }
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   .tracks {
     grid-template-columns: 1fr 1fr;
   }
