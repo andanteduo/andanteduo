@@ -11,6 +11,9 @@ body {
 .text-white {
   color: #fff;
 }
+.text-black {
+  color: #111;
+}
 
 img {
   display: block;
