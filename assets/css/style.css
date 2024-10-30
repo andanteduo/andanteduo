@@ -542,7 +542,7 @@ textarea:visited {
   box-shadow: none;
 }
 .accordion-button:not(.collapsed) {
-  background-color: #734c38;
+  background-color: #111;
   color: #fff;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
 }
