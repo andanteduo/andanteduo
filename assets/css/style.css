@@ -194,7 +194,7 @@ img {
     transform: translate(-50%, -50%);
   }
   .banner .next {
-    bottom: 0px;
+    bottom: 50px;
     width: 100%;
     left: 0;
   }
