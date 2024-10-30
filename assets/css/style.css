@@ -624,14 +624,15 @@ nav.navbar.active {
 }
 .navbar-brand {
   display: none;
-  height: 32px;
+  height: 20px;
   width: 200px;
   padding: 0;
   transition: opacity 0.3s ease-in-out;
   opacity: 0;
   position: absolute;
   left: 20px;
-  top: 10px;
+  top: 50%;
+  transform: translateY(-50%);
   z-index: 22;
 }
 nav.navbar.active .navbar-brand {
