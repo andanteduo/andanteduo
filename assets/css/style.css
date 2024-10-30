@@ -253,7 +253,7 @@ p {
   margin: 70px 0;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .band {
     display: grid;
     grid-template-columns: 1fr 1fr;
