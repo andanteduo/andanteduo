@@ -574,9 +574,8 @@ textarea:visited {
 /* navbar */
 .navbar-toggler {
   margin: 0;
-  border: none;
+  border: 1px solid #111;
   height: 50px;
-  background: rgba(0, 0, 0, 0.5);
   border-radius: 50%;
   z-index: 200;
   position: fixed;
@@ -591,7 +590,7 @@ nav.navbar.active .navbar-toggler {
   transform: translate(0);
 }
 .navbar-toggler .navbar-toggler-icon {
-  color: #fff;
+  color: #111;
 }
 .nav-link {
   padding: 10px 15px;
