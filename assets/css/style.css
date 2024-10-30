@@ -810,6 +810,7 @@ nav.navbar.active .navbar-brand {
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
+    background: rgba(255, 255, 255, 0.5);
 }
 #nextEvent .header-countdown {
   display: none;
