@@ -492,11 +492,11 @@ textarea:visited {
   gap: 10px;
 }
 .event-links a {
-  background-color: #eee;
+  background-color: #956e5a;
   border-radius: 20%;
   font-size: 18px;
   text-decoration: none;
-  color: #333;
+  color: #fff;
   display: block;
   width: 32px;
   height: 32px;
@@ -508,7 +508,7 @@ textarea:visited {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 .event-links a:hover {
-  background-color: #333;
+  background-color: #512a16;
   color: #fff;
 }
 
