@@ -599,7 +599,7 @@ nav.navbar.active .navbar-toggler {
   font-family: "Patua One", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   color: #ccc;
 }
@@ -683,7 +683,7 @@ nav.navbar.active .navbar-brand {
     color: #eee;
   }
   .navbar-collapse {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.9);
     flex-grow: 0;
     width: auto;
     margin: 0 auto;
