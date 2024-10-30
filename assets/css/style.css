@@ -350,6 +350,7 @@ audio {
 }
 button[type="submit"], #mc_embed_signup .button, #mc_embed_signup .button:hover {
   background-color: #734c38 !important;
+  color: #fff;
   border: none;
   padding: 10px 30px;
   margin-top: 20px;
@@ -357,6 +358,9 @@ button[type="submit"], #mc_embed_signup .button, #mc_embed_signup .button:hover 
   margin-right: auto;
   border-radius: 20px;
   font-weight: normal;
+  font-family: "Patua One", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 #mc_embed_signup label {
   margin-bottom: 10px !important;
@@ -388,7 +392,7 @@ textarea {
 }
 input:focus,
 textarea:focus {
-  outline: 1px solid red;
+  outline: 1px solid #3a261c;
   background-color: #fff;
 }
 input:visited,
