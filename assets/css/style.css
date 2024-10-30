@@ -322,11 +322,11 @@ p {
 }
 
 audio::-webkit-media-controls-panel {
-  background-color: #956c38;
+  background-color: #fff;
 }
 
 audio::-webkit-media-controls-mute-button {
-  background-color: #734c38;
+  background-color: #b78e5a;
   border-radius: 50%;
 }
 
