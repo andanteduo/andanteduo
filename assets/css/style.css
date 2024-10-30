@@ -453,7 +453,7 @@ textarea:visited {
 }
 .accordion-body {
   text-align: left;
-  background-color: #ddd;
+  background-color: rgba(0,0,0,0.1);
   padding: 0;
 }
 .event-item {
@@ -536,7 +536,7 @@ textarea:visited {
   box-shadow: none;
 }
 .accordion-button:not(.collapsed) {
-  background-color: #555;
+  background-color: #734c38;
   color: #fff;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
 }
@@ -545,17 +545,17 @@ textarea:visited {
   background: none;
 }
 .accordion-item:first-of-type .accordion-button {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-top-left-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
 }
 .accordion-item:last-of-type .accordion-button.collapsed {
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 0.375rem;
+  border-bottom-right-radius: 0.375rem;
 }
 .accordion-item:last-of-type .accordion-body,
 .accordion-item:last-of-type .accordion-body .event-item:last-child {
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 0.375rem;
+  border-bottom-right-radius: 0.375rem;
 }
 
 .accordion {
