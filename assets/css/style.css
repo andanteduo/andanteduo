@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 
 body {
   background-color: #f6f0e9;
@@ -104,11 +104,10 @@ img {
 }
 .banner .next {
   position: absolute;
-  bottom: 7%;
-  left: -10%;
-  width: 120%;
+  bottom: 0;
+  left: 0%;
+  width: 100%;
   text-align: center;
-  background: rgba(0,0,0,0.6);
   padding: 20px;
   z-index: 2;
   opacity: 0; /* make things invisible upon start */
@@ -162,28 +161,27 @@ img {
 @keyframes fadeInNextEvent {
   0% {
     opacity: 0;
-    transform: translateY(100%) rotate(0deg);
+    transform: translateY(100%);
   }
   100% {
     opacity: 1;
-    transform: translateY(0%) rotate(-10deg);
+    transform: translateY(0%);
   }
 }
 @media (min-width: 992px) {
   @keyframes fadeInNextEvent {
     0% {
       opacity: 0;
-      transform: translateY(100%) translateX(0%) rotate(0deg);
+      transform: translateY(100%) translateX(0%);
     }
     100% {
       opacity: 1;
-      transform: translateY(0%) translateX(0%) rotate(0deg);
+      transform: translateY(0%) translateX(0%);
     }
   }
 }
 @media (min-width: 800px) {
   .banner .logo {
-    /* height: 340px; */
     width: 500px;
   }
 }
@@ -204,7 +202,9 @@ img {
 h1,
 h2,
 h3 {
-  font-family: "Bebas neue", sans-serif;
+  font-family: "Patua One", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h1 {
@@ -502,7 +502,9 @@ textarea:visited {
   border: none;
   background-color: #333;
   color: #999;
-  font-family: "Bebas Neue";
+  font-family: "Patua One", serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 20px;
   line-height: 20px;
   padding: 16px 20px 12px;
@@ -565,7 +567,9 @@ nav.navbar.active .navbar-toggler {
 .nav-link {
   padding: 10px 15px;
   border-top: 1px solid #333;
-  font-family: "Bebas Neue";
+  font-family: "Patua One", serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 20px;
   text-align: center;
   color: #ccc;
