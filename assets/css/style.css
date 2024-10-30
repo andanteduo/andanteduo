@@ -2,7 +2,7 @@
 
 body {
   background-color: #f6f0e9;
-  color: #eee;
+  color: #111;
 }
 
 .text-centre {
@@ -145,14 +145,14 @@ img {
 
 .banner .next-event-link {
   text-decoration: none;
-  color: #eee;
+  color: #111;
 }
 .banner .next-event .header {
   display: none;
 }
 
 .banner .next-event .highlight {
-  color: #f25500;
+  color: #2d1c12;
   font-size: 30px;
 }
 .banner .next-event .label {
@@ -194,8 +194,6 @@ img {
     bottom: 0px;
     width: 100%;
     left: 0;
-    /* box-shadow: 0px 0px 100px -33px rgba(255,255,355,0.8); */
-    transform-origin: left;
   }
 }
 
