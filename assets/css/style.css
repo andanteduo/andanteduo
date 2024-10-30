@@ -352,11 +352,11 @@ button[type="submit"], #mc_embed_signup .button, #mc_embed_signup .button:hover 
   background-color: #734c38 !important;
   color: #fff;
   border: none;
-  padding: 10px 30px;
+  padding: 16px 40px;
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 20px;
+  border-radius: 10px;
   font-weight: normal;
   font-family: "Patua One", serif;
   font-weight: 400;
