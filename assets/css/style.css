@@ -109,8 +109,6 @@ img {
 }
 .banner .next {
   text-align: center;
-  padding: 20px;
-  z-index: 2;
   opacity: 0; /* make things invisible upon start */
   -webkit-animation: fadeInNextEvent ease-out 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
   -moz-animation: fadeInNextEvent ease-out 1;
