@@ -1,11 +1,20 @@
-// $(function () {
-  const img = document.getElementById("logo");
+// Select the image element
+const img = document.getElementById("logo");
 
-  // Add an event listener to add the class once the image has loaded
-  img.addEventListener("load", () => {
-    img.parentElement.classList.add("loaded"); // Add the 'loaded' class to the parent div
-  });
-// });
+// Function to add the class to the parent div
+function addLoadedClass() {
+  img.parentElement.classList.add("loaded");
+}
+
+// Check if the image has already loaded
+if (img.complete) {
+  // If already loaded, call the function directly
+  addLoadedClass();
+} else {
+  // Otherwise, add the load event listener
+  img.addEventListener("load", addLoadedClass);
+}
+
 // contact form ************************************************************
 
 const form = document.getElementById("form");
