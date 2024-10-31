@@ -5,7 +5,7 @@ $(function () {
   img.addEventListener("load", () => {
     img.parentElement.classList.add("loaded"); // Add the 'loaded' class to the parent div
   });
-}
+});
 // contact form ************************************************************
 
 const form = document.getElementById("form");
