@@ -33,17 +33,7 @@ img {
 .banner .panel {
   border: 1px solid red;
 }
-.banner img.bg {
-  object-fit: cover;
-  object-position: center;
-  width: 100%;
-  height: 100%;
-}
-@media (min-width: 800px) {
-  .banner img.bg {
-    object-position: center center;
-  }
-}
+
 .banner .logo-wrapper {
   width: 100%;
   height: 100%;
