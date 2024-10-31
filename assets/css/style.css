@@ -26,6 +26,12 @@ img {
   width: 100%;
   height: 100vh;
   overflow: hidden;
+  display: grid;
+  gap: 30px;
+  grid-template-rows: 1fr auto;
+}
+.banner .panel {
+  border: 1px solid red;
 }
 .banner img.bg {
   object-fit: cover;
