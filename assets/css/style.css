@@ -558,7 +558,7 @@ textarea:visited {
     -webkit-animation-fill-mode: forwards; /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
     -moz-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
-    animation-duration: 1.2s;
+    animation-duration: 1s;
     animation-delay: 3s;
 }
 nav.navbar.active .navbar-toggler {
