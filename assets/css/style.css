@@ -119,7 +119,7 @@ img {
 }
 .banner .next-event .event-title {
   margin-bottom: 12px;
-  font-size: 16px;
+  font-size: 14px;
 }
 .banner .next-event .event-location {
   max-width: 280px;
@@ -132,7 +132,7 @@ img {
 }
 .banner .next-event h3 {
   margin-bottom: 12px;
-  font-size: 20px;
+  font-size: 14px;
 }
 
 .banner .next-event-link {
@@ -145,7 +145,7 @@ img {
 
 .banner .next-event .highlight {
   color: #2d1c12;
-  font-size: 24px;
+  font-size: 20px;
 }
 .banner .next-event .label {
   font-size: 16px;
