@@ -103,9 +103,9 @@ img {
   text-align: center;
   padding-bottom: 100px;
   opacity: 0; /* make things invisible upon start */
-  -webkit-animation: fadeInNextEvent ease-out 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
-  -moz-animation: fadeInNextEvent ease-out 1;
-  animation: fadeInNextEvent ease-out 1;
+  -webkit-animation: fadeInNextEvent ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation: fadeInNextEvent ease-in 1;
+  animation: fadeInNextEvent ease-in 1;
 
   -webkit-animation-fill-mode: forwards; /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
   -moz-animation-fill-mode: forwards;
@@ -654,9 +654,9 @@ nav.navbar.active .navbar-brand {
     position: initial;
     transform: translateY(40px);
     opacity: 0; /* make things invisible upon start */
-    -webkit-animation: fadeInNav ease-out 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
-    -moz-animation: fadeInNav ease-out 1;
-    animation: fadeInNav ease-out 1;
+    -webkit-animation: fadeInNav ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation: fadeInNav ease-in 1;
+    animation: fadeInNav ease-in 1;
 
     -webkit-animation-fill-mode: forwards; /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
     -moz-animation-fill-mode: forwards;
@@ -664,7 +664,7 @@ nav.navbar.active .navbar-brand {
     animation-duration: 2s;
     animation-delay: 3s;
   }
-  
+
   nav.navbar.active .navbar-collapse {
     padding: 0;
     border-radius: 0;
