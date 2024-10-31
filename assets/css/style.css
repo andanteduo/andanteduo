@@ -550,6 +550,16 @@ textarea:visited {
   right: 0px;
   transition: all 0.2s ease-in;
   transform: translate(-10px, 10px);
+  opacity: 0; /* make things invisible upon start */
+    -webkit-animation: fadeInNav ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation: fadeInNav ease-in 1;
+    animation: fadeInNav ease-in 1;
+
+    -webkit-animation-fill-mode: forwards; /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    animation-duration: 1.2s;
+    animation-delay: 3s;
 }
 nav.navbar.active .navbar-toggler {
   position: initial;
