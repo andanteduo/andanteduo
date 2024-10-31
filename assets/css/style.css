@@ -71,6 +71,7 @@ img {
   .banner .logo.loaded {
     animation: none; /* Disable animations */
     opacity: 1;
+    transform: none;
   }
 }
 
