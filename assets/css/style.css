@@ -574,6 +574,12 @@ textarea:visited {
     animation-duration: 1s;
     animation-delay: 3s;
 }
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  /* This will apply only in Safari */
+  .navbar-toggler {
+    animation-delay: 1s;
+  }
+}
 nav.navbar.active .navbar-toggler {
   position: initial;
   background: none;
