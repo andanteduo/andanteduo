@@ -43,6 +43,7 @@ img {
 .banner .logo {
   width: 80%;
   height: 90%;
+  max-width: 500px;
   position: absolute;
   bottom: 0;
 
@@ -195,6 +196,7 @@ h1 {
   max-width: 640px;
   margin-left: auto;
   margin-right: auto;
+  line-height: 24px;
 }
 h2 {
   margin-bottom: 40px;
