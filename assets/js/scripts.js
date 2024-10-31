@@ -82,6 +82,13 @@ async function getData() {
       let nextEventSet = false;
       // Output events by year and month, filtering out past months
       Object.entries(eventsByYear).forEach(([year, eventsByMonth]) => {
+        if (
+          isNaN(year) ||
+          !eventsByMonth ||
+          Object.keys(eventsByMonth).length === 0
+        ) {
+          return; // Skip this iteration if the year is invalid or has no events
+        }
         // Create an h3 tag for the year
         const yearHeader = document.createElement("h3");
         yearHeader.textContent = year;
@@ -150,7 +157,6 @@ async function getData() {
               );
               const isExpired = new Date(event.start.dateTime) < currentDate;
               if (!isExpired && !nextEventSet) {
-                
                 const nextEventHTML = `
                   <h3 class="header-countdown"><div id="banner-nextEvent-countdown" class="next-event-countdown"></div></h3>
                   <h3 class="header">Next Show</h3>
@@ -178,7 +184,7 @@ async function getData() {
                   <div class="event-links">
                     <div class="map-link">
                       <a href="https://www.google.com/maps/search/?api=1&query=${encodeURI(
-                      event.location
+                        event.location
                       )}" target="_blank" title="Show on map"><i class="fa-solid fa-location-dot"></i></a>
                     </div>
                   </div>
@@ -237,7 +243,7 @@ function formatDate(date, currentDate) {
 }
 
 function updateCountdown(startDate) {
-  console.log('updating..');
+  console.log("updating..");
   const targetDate = new Date(startDate);
   const now = new Date();
   const difference = targetDate - now;
@@ -264,16 +270,14 @@ function updateCountdown(startDate) {
         ? `<span class="highlight">${minutes}</span> <span class="label">${minutesLabel}</span>`
         : "";
 
-    let output = '';
+    let output = "";
 
     if (days > 0) {
       output = `Next show in <div>${daysOutput} ${hoursOutput} ${minutesOutput}</div>`;
     } else {
       output = `Next show today in <div>${hoursOutput} ${minutesOutput}</div>`;
     }
-    document.getElementById(
-      "banner-nextEvent-countdown"
-    ).innerHTML = output;
+    document.getElementById("banner-nextEvent-countdown").innerHTML = output;
   }
 }
 
