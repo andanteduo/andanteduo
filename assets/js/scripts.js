@@ -1,9 +1,11 @@
-const img = document.getElementById("logo");
+$(function () {
+  const img = document.getElementById("logo");
 
-// Add an event listener to add the class once the image has loaded
-img.addEventListener("load", () => {
-  img.parentElement.classList.add("loaded"); // Add the 'loaded' class to the parent div
-});
+  // Add an event listener to add the class once the image has loaded
+  img.addEventListener("load", () => {
+    img.parentElement.classList.add("loaded"); // Add the 'loaded' class to the parent div
+  });
+}
 // contact form ************************************************************
 
 const form = document.getElementById("form");
