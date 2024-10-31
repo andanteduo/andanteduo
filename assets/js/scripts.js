@@ -264,7 +264,6 @@ function formatDate(date, currentDate) {
 }
 
 function updateCountdown(startDate) {
-  console.log("updating..");
   const targetDate = new Date(startDate);
   const now = new Date();
   const difference = targetDate - now;
