@@ -126,7 +126,13 @@ img {
   animation-fill-mode: forwards;
   animation-duration: 1.2s;
   animation-delay: 3s;
-
+}
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  /* This will apply only in Safari */
+  .banner .next.loaded {
+    animation: none; /* Disable animations */
+    opacity: 1;
+  }
 }
 .banner .next-event {
   user-select: none;
