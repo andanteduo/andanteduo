@@ -110,8 +110,8 @@ img {
   -webkit-animation-fill-mode: forwards; /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  animation-duration: 0.5s;
-  animation-delay: 2s;
+  animation-duration: 1s;
+  animation-delay: 3s;
 
 }
 .banner .next-event {
@@ -661,7 +661,7 @@ nav.navbar.active .navbar-brand {
     -webkit-animation-fill-mode: forwards; /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
     -moz-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
-    animation-duration: 0.5s;
+    animation-duration: 1s;
     animation-delay: 3s;
   }
   nav.navbar.active .navbar-collapse {
