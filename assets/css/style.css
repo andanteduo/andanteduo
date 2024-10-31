@@ -41,6 +41,10 @@ img {
   position: relative;
 }
 .banner .logo {
+  display: none;
+}
+.banner .logo.loaded {
+  display: block;
   width: 80%;
   height: 80%;
   max-width: 500px;
