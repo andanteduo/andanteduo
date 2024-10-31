@@ -173,22 +173,6 @@ img {
     }
   }
 }
-@media (min-width: 800px) {
-  .banner .logo {
-    width: 500px;
-  }
-}
-@media (min-width: 992px) {
-  .banner .logo-wrapper {
-    top: 44%;
-    transform: translate(-50%, -50%);
-  }
-  .banner .next {
-    bottom: 50px;
-    width: 100%;
-    left: 0;
-  }
-}
 
 h1,
 h2,
