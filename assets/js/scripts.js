@@ -1,9 +1,13 @@
-// Select the image element
+// Select the image element and the element with the class 'next'
 const img = document.getElementById("logo");
+const next = document.querySelector(".next"); // Adjust selector if there are multiple 'next' elements
 
-// Function to add the class to the parent div
+// Function to add the 'loaded' class to both the parent div and the 'next' element
 function addLoadedClass() {
   img.parentElement.classList.add("loaded");
+  if (next) {
+    next.classList.add("loaded");
+  }
 }
 
 // Check if the image has already loaded
