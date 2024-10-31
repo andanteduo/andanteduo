@@ -54,6 +54,7 @@ img {
 .banner .logo {
   width: 80%;
   height: 80%;
+  max-height: 400px;
 
   opacity: 0; /* make things invisible upon start */
   -webkit-animation: fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
