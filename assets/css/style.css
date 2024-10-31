@@ -106,10 +106,6 @@ img {
   object-position: center;
 }
 .banner .next {
-  position: absolute;
-  bottom: 40px;
-  left: 0%;
-  width: 100%;
   text-align: center;
   padding: 20px;
   z-index: 2;
