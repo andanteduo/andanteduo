@@ -664,6 +664,7 @@ nav.navbar.active .navbar-brand {
     animation-duration: 2s;
     animation-delay: 3s;
   }
+  
   nav.navbar.active .navbar-collapse {
     padding: 0;
     border-radius: 0;
