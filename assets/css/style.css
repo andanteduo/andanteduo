@@ -66,6 +66,12 @@ img {
   animation-delay: 1s;
   transform: scale(0.1) rotateZ(-1080deg) rotateY(180deg);
 }
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  /* This will apply only in Safari */
+  .banner .logo.loaded {
+    animation: none; /* Disable animations */
+  }
+}
 
 @keyframes fadeIn {
   0% {
