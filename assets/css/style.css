@@ -851,6 +851,7 @@ nav.navbar.active .navbar-brand {
 }
 .resource-list a {
   display: block;
+  margin: 0;
 }
 @media (min-width: 800px) {
   .resource-list {
