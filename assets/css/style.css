@@ -850,11 +850,11 @@ nav.navbar.active .navbar-brand {
   justify-content: center;
 }
 .resource-list a {
-  display: block;
+  display: inline-block;
   margin: 0;
 }
 @media (min-width: 800px) {
   .resource-list {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto;
   }
 }
