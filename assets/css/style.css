@@ -842,3 +842,10 @@ nav.navbar.active .navbar-brand {
   justify-content: center;
   text-decoration: none;
 }
+
+
+.resource-list {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+}
