@@ -849,3 +849,6 @@ nav.navbar.active .navbar-brand {
   grid-template-columns: auto auto;
   gap: 30px;
 }
+.resource-list a {
+  display: block;
+}
