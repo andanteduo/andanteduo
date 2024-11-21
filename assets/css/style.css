@@ -846,9 +846,14 @@ nav.navbar.active .navbar-brand {
 
 .resource-list {
   display: grid;
-  grid-template-columns: auto auto;
   gap: 30px;
+  justify-content: center;
 }
 .resource-list a {
   display: block;
+}
+@media (min-width: 800px) {
+  .resource-list {
+    grid-template-columns: 1fr 1fr;
+  }
 }
